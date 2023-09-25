@@ -148,3 +148,68 @@ main{
 .botao:hover{
     background-color: #4b4be2;
 }
+
+/*Cards*/
+.card1> img{
+    width: 80px;
+}
+.pq{
+    font-size: 15px;
+    margin-top: 10px;
+}
+.card1{
+    width: 200px;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px 0px;
+}
+.card1> h3{
+    font-size: 18px;
+    padding: 5px 0px;
+}
+.card1> p{
+    font-size: 15px;
+}
+
+/*TABELA*/
+
+.tabela{
+width: 100%;
+margin: 0px auto;
+}
+aside{
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+.texto-azul{
+    color: #2222ee;
+}
+th{
+    justify-content: center;
+    text-align: center;
+    width: 90%;
+}
+
+th> img{
+    width: 80px;
+}
+th> p{
+    width: 100px;
+    font-size: 10px;
+    
+}
+th> h3{
+    font-size: 12px;
+    margin-top: 5px;
+    padding: 5px 0px;
+}
+.sem-mobile{
+    display: none;
+}
+table{
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 0px;
+    align-items: center;
+}
