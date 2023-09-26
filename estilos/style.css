@@ -35,7 +35,7 @@ header{
 
 }
 .cabecalho> p{
-    color: #3131ac;
+    color: #2f86d6;
     font-weight: bold;
     font-size: 13px;
 }
@@ -73,7 +73,7 @@ main{
 }
 .topo{
     display: block;
-    background-color: #2222ee;
+    background-color: #2f86d6;
     color: #ffffff;
     width: 100%;
 }
@@ -107,7 +107,7 @@ main{
 }
 
 #banner{
-    background-color: #1f1d1d;
+    background-color: #233032;
     color: #ffffff;
     height: 200px;
     padding: 10px 0px;
@@ -127,7 +127,7 @@ main{
     border: 1px solid blue;
     width: 160px;
     height: 40px;
-    background-color: #2222ee;
+    background-color: #2f86d6;
     padding: 8px 0px;
     border-radius: 5px;
     box-shadow: 0px 2px 1px 0px #1a1919;
@@ -184,12 +184,18 @@ aside{
     text-align: center;
     font-size: 18px;
     margin: 20px auto;
+    
 }
 .texto-azul{
-    color: #2222ee;
+    color: #2f86d6;
 }
 
-
+th{
+    border: 1px solid #e2d7d7c4;
+}
+td{
+    border: 1px solid #e2d7d7c4; 
+}
 th> img{
     width: 80px;
 }
@@ -206,9 +212,7 @@ th> h3{
     margin-top: 5px;
     padding: 2px 0px;
 }
-.sem-mobile{
-    display: none;
-}
+
 table{
     width: 100%;
     margin: 0 auto;
@@ -218,11 +222,83 @@ table{
 
 .cor> td{
     font-size: 13px;
-    background-color: #faf3f3;
+    background-color: #f1f3f7;
     padding: 5px 5px;
     
 }
 .sem-cor> td{
     font-size: 13px;
     padding: 5px 5px;
+}
+/*Seção Final*/
+#final{
+    background-color: #2f86d6;
+    color: #ffffff;
+    height: 190px;
+    padding: 10px 0px;
+   
+   
+}
+#final> h3{
+    font-size: 21px;
+    margin-bottom: 20px;
+    width: 80%;
+    margin: 15px auto;
+}
+.botao2{
+    margin: 15px auto;
+    width: 160px;
+    height: 40px;
+    background-color: #233032;
+    padding: 12px 0px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 1px 0px #1a1919;
+    display: flex;
+    justify-content: space-evenly;
+}
+.botao2> a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+}
+.botao2> img{
+    width: 20px;
+    height: 19px;
+    
+}
+.botao2:hover{
+    background-color: #4b4be2;
+}
+.final{
+    text-align: center;
+    font-size: 0.8em;
+
+}
+.final> p{
+    color: #2f86d6;
+    font-weight: bold;
+    font-size: 13px;
+
+}
+.final> h1{
+    font-size: 22px;
+    font-weight: 400;
+}
+.lista{
+    width: 100%;
+    text-align: center;
+    margin: 10px auto;
+}
+li{
+    padding: 10px 10px;
+    font-size: 14px;
+}
+.rodape{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    background-color:  #f1f3f7;
+    padding: 15px;
+    font-size: 14px;
 }

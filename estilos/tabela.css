@@ -1,0 +1,158 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/*Versão MOBILE*/
+
+/*Cabeçalho*/
+header{
+    display: block;
+    width: 100%;
+    background-color: #2f86d6;
+}
+.logo> img{
+    width: 50px;
+    margin: 0 auto;
+    align-items: center;
+    padding: 5px 0px;
+}
+.logo{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    padding: 8px 0px;
+    width: 50%;
+}
+.cabecalho{
+    text-align: center;
+    width: 100%;
+    font-size: 0.8em;
+
+}
+.cabecalho> p{
+    color: #fff;
+    font-weight: bold;
+    font-size: 13px;
+}
+.cabecalho> h1{
+    font-size: 22px;
+    font-weight: 600;
+}
+nav{
+    width: 90%;
+    padding: 10px;
+    margin: 5px auto;
+    text-align: center;
+    display: flex;
+    gap: 12px;
+    
+}
+nav> a{
+    font-size: 12px;
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+    text-decoration: none;
+    
+}
+a:hover{
+    cursor: pointer;
+    color: #292727;
+}
+/*tabela*/
+main{
+    width: 100%;
+    height: 80%;
+}
+
+.tabela{
+    width: 98%;
+    justify-content: center;
+    margin: 15px auto;
+    box-shadow: 0px 0px 4px 3px #b1b1ff;
+    position: fixed;
+    bottom: 190px;
+}
+th{
+    border: 1px solid #e2d7d7c4;
+}
+td{
+    border: 1px solid #e2d7d7c4;
+    font-size: 12px;
+    padding: 10px 2px;
+}
+th> img{
+    width: 80px;
+}
+th> p{
+    width: 100px;
+    font-size: 10px;
+    margin: 0px auto;
+    padding: 0px 0px;
+    color: #7c7272;
+    font-weight: 200;
+}
+th> h1{
+    font-size: 12px;
+    margin-top: 5px;
+    padding: 2px 0px;
+   
+}
+thead{
+    background-color: #f1f3f7;
+}
+
+table{
+    width: 100%;
+    margin: 0 auto;
+    padding: 15px 0px;
+    align-items: center;
+}
+footer{
+    background-color: #2f86d6;
+    position: fixed;
+    bottom:5px;
+    
+}
+.final{
+    text-align: center;
+    font-size: 0.8em;
+    
+
+}
+.final> p{
+    color: #fff;
+    font-weight: bold;
+    font-size: 13px;
+
+}
+.final> h1{
+    font-size: 22px;
+    font-weight: 400;
+}
+.logo> img{
+    width: 50px;
+    margin: 0 auto;
+    align-items: center;
+    padding: 5px 0px;
+}
+.logo{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    padding: 8px 0px;
+    width: 50%;
+}
+.paragrafo{
+    width: 100%;
+   color: #fff;
+   font-size:12px ;
+   text-align: center;
+
+}
