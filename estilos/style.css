@@ -174,22 +174,21 @@ main{
 /*TABELA*/
 
 .tabela{
-width: 100%;
-margin: 0px auto;
+    width: 98%;
+    justify-content: center;
+    margin: 15px auto;
+    box-shadow: 0px 0px 4px 3px #b1b1ff;
 }
 aside{
     width: 100%;
     text-align: center;
     font-size: 18px;
+    margin: 20px auto;
 }
 .texto-azul{
     color: #2222ee;
 }
-th{
-    justify-content: center;
-    text-align: center;
-    width: 90%;
-}
+
 
 th> img{
     width: 80px;
@@ -197,12 +196,15 @@ th> img{
 th> p{
     width: 100px;
     font-size: 10px;
-    
+    margin: 0px auto;
+    padding: 0px 0px;
+    color: #7c7272;
+    font-weight: 200;
 }
 th> h3{
     font-size: 12px;
     margin-top: 5px;
-    padding: 5px 0px;
+    padding: 2px 0px;
 }
 .sem-mobile{
     display: none;
@@ -210,6 +212,17 @@ th> h3{
 table{
     width: 100%;
     margin: 0 auto;
-    padding: 10px 0px;
+    padding: 15px 0px;
     align-items: center;
+}
+
+.cor> td{
+    font-size: 13px;
+    background-color: #faf3f3;
+    padding: 5px 5px;
+    
+}
+.sem-cor> td{
+    font-size: 13px;
+    padding: 5px 5px;
 }
