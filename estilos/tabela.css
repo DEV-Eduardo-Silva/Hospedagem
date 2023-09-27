@@ -64,6 +64,7 @@ nav> a{
 a:hover{
     cursor: pointer;
     color: #292727;
+    
 }
 /*tabela*/
 main{
@@ -73,11 +74,11 @@ main{
 
 .tabela{
     width: 98%;
+    height: 300px;
     justify-content: center;
-    margin: 15px auto;
+    margin: 15px 2px;
     box-shadow: 0px 0px 4px 3px #b1b1ff;
-    position: fixed;
-    bottom: 190px;
+    
 }
 th{
     border: 1px solid #e2d7d7c4;
@@ -117,12 +118,15 @@ table{
 footer{
     background-color: #2f86d6;
     position: fixed;
-    bottom:5px;
+    bottom:0px;
+    width: 100%;
+    height: 30%;
     
 }
 .final{
     text-align: center;
     font-size: 0.8em;
+    padding: 20px 8px;
     
 
 }
@@ -150,7 +154,6 @@ footer{
     width: 50%;
 }
 .paragrafo{
-    width: 100%;
    color: #fff;
    font-size:12px ;
    text-align: center;
