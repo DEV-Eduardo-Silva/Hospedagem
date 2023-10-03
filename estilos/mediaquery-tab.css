@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+@media screen and (max-width: 768px) {
+    
+        /*TABLET*/
+    /*CABEÇALHO*/
+    header{
+        display: block;
+        width: 100%;
+        max-height: 200px;
+    }
+    .logo> img{
+        width: 60px;
+        margin: 0 auto;
+        align-items: center;
+        padding: 5px 0px;
+    }
+    .logo{
+        max-width: 30%;
+    }
+    .cabecalho{
+        max-width: 100%;
+    }
+   
+    nav{
+        max-width: 90%;
+
+        
+    }
+    a:hover{
+        cursor: pointer;
+        color: #292727;
+    }
+    /*TABELA*/
+    main{
+        max-width: 100%;
+        margin: 0 auto;
+        max-height: 800px;
+        
+    }
+    
+    .tabela{
+        width: 98%;
+        max-height: 100%;
+        
+        margin: 0 auto;
+        box-shadow: 0px 0px 4px 3px #b1b1ff;
+        
+    }
+    th{
+        border: 1px solid #e2d7d7c4;
+    }
+    td{
+        border: 1px solid #e2d7d7c4;
+        font-size: 12px;
+        padding: 10px 2px;
+    }
+    th> img{
+        width: 80px;
+    }
+    th> p{
+        width: 100px;
+        font-size: 10px;
+        margin: 0px auto;
+        padding: 0px 0px;
+        color: #7c7272;
+        font-weight: 200;
+    }
+    th> h1{
+        font-size: 12px;
+        margin-top: 5px;
+        padding: 2px 0px;
+       
+    }
+    thead{
+        background-color: #f1f3f7;
+    }
+    
+    table{
+        width: 100%;
+        margin: 0 auto;
+        padding: 15px 0px;
+        align-items: center;
+    }
+}
